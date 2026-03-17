@@ -1,145 +1,359 @@
     <!DOCTYPE html>
     <html lang="es">
 
-    <head>
-    <meta charset="UTF-8">
-    <title>Beauty Store</title>
-    <link rel="stylesheet" href="css/estilos.css">
-</head>
-<body>
+        <head>
+            <meta charset="UTF-8">
+            <title>Beauty Store</title>
+            <link rel="stylesheet" href="css/estilos.css">
+        </head>
+    <body>
 
-    <header>
-    <h1>Beauty Store</h1>
-     </header>
-    <nav>
-    <a href="#">Inicio</a>
-    <a href="#productos">Productos</a>
-    <a href="#piel">Tipo de piel</a>
-    <a href="#contacto">Contacto</a>
-    </nav>
+        <header>
+            <h1>Beauty Store</h1>
+        </header>
+        <nav>
+            <a href="#" onclick="mostrarSeccion('inicio')">Inicio</a>
+            <a href="#" onclick="mostrarSeccion('productos')">Productos</a>
+            <a href="#" onclick="mostrarSeccion('piel')">Tipo de piel</a>
+            <a href="#" onclick="mostrarSeccion('contacto')">Contacto</a>
+        </nav>
    
 
-    <!-- PROMOCION -->
+        <!--Inicio-->
+        <section id="inicio">
+            <section class="promo">
+                <h2>20% de descuento en bases</h2>
+                <p>Solo por esta semana en Beauty Store</p>
+            </section>
 
-    <section class="promo">
-    <h2>20% de descuento en bases</h2>
-    <p>Solo por esta semana en Beauty Store</p>
-    </section>
+            <!-- HERO -->
+            <section class="hero">
+                <h2>Encuentra tu maquillaje ideal</h2>
+                <img src="IMG/Banner de Youtube Moderna con degradado sobre maquillaje para disfraces.png">
+                <p>Recomendaciones según tu tipo de piel</p>
+            </section>
 
-    <!-- HERO -->
-    <section class="hero">
-    <h2>Encuentra tu maquillaje ideal</h2>
-    <p>Recomendaciones según tu tipo de piel</p>
-    <img src="">
-    </section>
+            <!-- MARCAS -->
+            <section class="marcas">
+                <h2>Marcas populares</h2>
+                <div class="marcas">
+                    <p><strong>Trendy</strong></p>
+                    <img src="IMG/images (2).jpg">
+                    <p>Marca colombiana 🇨🇴</p>
+                </div>
+                
+                <div class="marcas">
+                    <p><strong>Mac</strong></p>
+                    <img src="IMG/images (2).png">
+                    <p>Marca internacional 🌎</p>
+                </div>
+                
+                <div class="marcas">
+                    <P><strong>Bloomshell</strong></P>
+                    <img src="IMG/images (3).jpg">
+                    <p>Marca colombiana 🇨🇴</p>
+                </div> 
+            </section>
 
-    <!-- PRODUCTOS -->
-    <section id="productos">
-    <h2>Productos destacados</h2>
-    <div class="productos-container">
-    <div class="producto">
-    <img src="">
-    <h3>Base Matte</h3>
-    <p>Perfecta para piel grasa</p></div>
+            <!-- OPINIONES -->
+            <section class="opiniones">
+                <h2>Opiniones de clientes</h2>
+                <p>"Los productos son increíbles y duran todo el día." ⭐⭐⭐⭐⭐</p>
+                <p>"La base hidratante es perfecta para mi piel seca." ⭐⭐⭐⭐</p>
+                <p>"Me encanta la variedad de maquillaje." ⭐⭐⭐⭐⭐</p>
+            </section>
 
-    <div class="producto">
-    <img src="">
-    <h3>Polvo Compacto</h3>
-    <p>Controla el brillo del rostro</p>
-    </div>
+        </section>
 
-    <div class="producto">
-    <img src="">
-    <h3>Primer Facial</h3>
-    <p>Prepara la piel antes del maquillaje</p>
-    </div>
 
-    <div class="producto">
-    <img src="">
-    <h3>Base Hidratante</h3>
-    <p>Ideal para piel seca</p>
-    </div>
+        <!-- PRODUCTOS -->
+        <section id="productos">
+            <h2>Productos destacados</h2>
+            <div class="productos-container">
+                <div class="producto">
+                    <img src="IMG/Logotipo Maquillista Moderno Aesthetic Rosa.png">
+                </div>
+            </div>
+        
+            <h3>Spray Hidratante</h3>
+            <p>Refresca la piel y mejora el acabado del maquillaje.</p>
+            <div class="producto">
+                <img src="">
+                <img src="">
+            </div>
 
-    <div class="producto">
-    <img src="">
-    <h3>Labial Matte</h3>
-    <p>Color intenso y larga duración</p>
-    </div>
+            <h3>Primer Facial</h3>
+            <p>Prepara la piel antes del maquillaje</p>
+            <div class="producto">
+                <img src="IMG/elf Power Grip Primer.jpg">
+                <img src="IMG/descarga (16).jpg">
+            </div>
 
-    <div class="producto">
-    <img src="">
-    <h3>Paleta de Sombras</h3>
-    <p>Colores ideales para cualquier ocasión</p>
-    </div>
+            <h3>Gel para Cejas</h3>
+            <p>Fija y mantiene las cejas en su lugar todo el día.</p>
+            <div class="producto">
+                <img src="">
+                <img src="">
+            </div>
 
-    <div class="producto">
-    <img src="">
-    <h3>Corrector Líquido</h3>
-    <p>Cubre ojeras e imperfecciones</p>
-    </div>
+            <h3>Lápiz de Cejas</h3>
+            <p>Define y rellena las cejas para una mejor estructura del rostro.</p>
+            <div class="producto">
+                <img src="">
+                <img src="">
+            </div>
 
-    <div class="producto">
-    <img src="">
-    <h3>Rubor</h3>
-    <p>Da color natural al rostro</p>
-    </div>
-    </div>
-    </section>
+            <h3>Base Matte</h3>
+            <p>Perfecta para piel grasa</p>
+            <div class="producto">
+                <img src="IMG/Bienvenido a SHEIN.jpg">
+                <img src="IMG/Matte Cover 12h Pink Up Maquillaje Líquido de Cobertura Media y Acabado Mate Control de Brillo Larga Duración 30 ml.jpg">
+            </div>
 
-    <!-- MARCAS -->
+            <h3>Base Hidratante</h3>
+            <p>Ideal para piel seca</p>
+            <div class="producto">
+                <img src="IMG/Matte Cover 12h Pink Up Maquillaje Líquido de Cobertura Media y Acabado Mate Control de Brillo Larga Duración 30 ml.jpg">
+                <img src="IMG/Fond de teint liquide Elf, léger, hydratant, éclaircissant, couvre naturellement les imperfections,.jpg" >
+            </div>
 
-    <section class="marcas">
-    <h2>Marcas populares</h2>
-    <img src="">
-    <img src="">
-    <img src="">
-    </section>
+            <h3>Corrector Líquido</h3>
+            <p>Cubre ojeras e imperfecciones</p>
+            <div class="producto">
+                <img src="IMG/Bloomshell concealer.jpg">
+                <img src="IMG/descarga (18).jpg">
+            </div>
 
-    <!-- OPINIONES -->
+            <h3>Prebase de Ojos</h3>
+            <p>Intensifica y prolonga la duración de las sombras.</p>
+            <div class="producto">
+                <img src="">
+                <img src="">
+            </div>
 
-    <section class="opiniones">
-    <h2>Opiniones de clientes</h2>
-    <p>"Los productos son increíbles y duran todo el día." ⭐⭐⭐⭐⭐</p>
-    <p>"La base hidratante es perfecta para mi piel seca." ⭐⭐⭐⭐</p>
-    <p>"Me encanta la variedad de maquillaje." ⭐⭐⭐⭐⭐</p>
-    </section>
+            <h3>Paleta de Sombras</h3>
+            <p>Colores ideales para cualquier ocasión</p>
+            <div class="producto">
+                <img src="IMG/descarga (17).jpg">
+                <img src="IMG/descarga (19).jpg">
+                <img src="IMG/descarga (20).jpg">
+                <img src="IMG/descarga (21).jpg">
+            </div>
 
-    <!-- TIPO DE PIEL -->
+            <h3>Glitter</h3>
+            <p>Da un toque brillante y llamativo al maquillaje.</p>
+            <div class="producto">
+                <img src="">
+                <img src="">
+            </div>
 
-    <section id="piel">
-    <h2>Identifica tu tipo de piel</h2>
-    <form>
-    <label>¿Tu piel produce brillo durante el día?</label>
-    <select>
-    <option>Mucho brillo</option>
-    <option>Poca grasa</option>
-    <option>Solo zona T</option>
-    </select>
-    <label>¿Cómo se siente tu piel?</label>
+            <h3>Delineador</h3>
+            <p>Define la mirada con trazos precisos e intensos.</p>
+            <div class="producto">
+                <img src="">
+                <img src="">
+            </div>
 
-    <select>
-    <option>Hidratada</option>
-    <option>Reseca</option>
-    <option>Mixta</option>
-    </select>
-    <button>Enviar</button>
-    </form> 
-    </section>
+            <h3>Máscara de Pestañas</h3>
+            <p>Alarga y da volumen a las pestañas para una mirada impactante.</p>
+            <div class="producto">
+                <img src="">
+                <img src="">
+            </div>
 
-    <!-- CONTACTO -->
+            <h3>Contorno</h3>
+            <p>Define y esculpe el rostro resaltando los pómulos y afinando las facciones.</p>
+            <div class="producto" >
+                <img src="IMG/Rare Beauty Soft Pinch Liquid Contour – jetzt in Deutschland erhältlich.jpg" >
+                <img src="IMG/Sheglam Contour 🤎.jpg">
+            </div>
 
-    <section id="contacto">
-    <h2>Contáctanos</h2>
-    <p>Email: beautystore@gmail.com</p>
-    <p>Instagram: @beautystore</p>
-    <p>Teléfono: +57 300 123 4567</p>
-    </section>
+            <h3>Rubor</h3>
+            <p>Da color natural al rostro</p>
+            <div class="producto">
+                <img src="IMG/descarga (22).jpg" >
+                <img src="IMG/Pixi On-the-Glow Blush Available In stock🔥 Sale Price_ 2150 BDT Regular Price_ 3370 BDT Shades - Fleur Juicy Cheek Tone Ruby ✅ Inbox us _ ORDER from website Get an extra discount with code_ new10.jpg">
+            </div>
 
-    <footer>
-    <p>© 2026 Beauty Store</p>
-    <p>Proyecto Ingeniería de Sistemas</p>
-    </footer>
+            <h3>Iluminador</h3>
+            <p>Aporta brillo y luminosidad a las zonas altas del rostro.</p>
+            <div class="producto">
+                <img src="">
+                <img src="">
+            </div>
+    
+            <h3>Polvo Compacto</h3>
+            <p>Controla el brillo del rostro</p>
+            <div class="producto">
+                <img src="IMG/Poudre fixante compacte RARE BEAUTY Sand Porcelain, imperméable, contrôle de l'huile, maquillage.jpg">
+                <img src="IMG/Mini Polvo Suelto Bloomshell 4 Tonos Bloom Filter.jpg">
+            </div>
 
-</body>
+            <h3>Polvo Traslúcido</h3>
+            <p>Sella el maquillaje sin aportar color y controla el brillo.</p>
+            <div class="producto">
+                <img src="">
+                <img src="">
+            </div>
+
+            <h3>Fijador de Maquillaje</h3>
+            <p>Prolonga la duración del maquillaje durante todo el día.</p>
+            <div class="producto">
+                <img src="">
+                <img src="">
+            </div>
+
+            <h3>Labial Matte</h3>
+            <p>Color intenso y larga duración</p>
+            <div class="producto">
+                <img src="">
+            </div>
+   
+            <h3>Lip Tint</h3>
+            <p>Aporta un color natural y duradero a los labios.</p>
+            <div class="producto">
+                <img src="">
+                <img src="">
+            </div>
+
+            <h3>Brillo Labial</h3>
+            <p>Da un acabado brillante y jugoso a los labios.</p>
+            <div class="producto">
+                <img src="">
+                <img src="">
+            </div>
+
+            <h3>Brochas de Maquillaje</h3>
+            <p>Herramientas esenciales para una aplicación precisa del maquillaje.</p>
+            <div class="producto">
+                <img src="">
+                <img src="">
+            </div>
+
+            <h3>Esponja de Maquillaje</h3>
+            <p>Permite difuminar el maquillaje para un acabado más natural.</p>
+            <div class="producto">
+                <img src="">
+                <img src="">
+            </div>
+        </section>
+
+
+        <!-- TIPO DE PIEL -->
+        <section id="piel">
+            <h2>Identifica tu tipo de piel</h2>
+            <form>
+                <div class="pregunta">
+                    <label>¿Tu piel produce brillo durante el día?</label>
+                    <select>
+                        <option disabled selected>Selecciona una opción</option>
+                        <option>Mucho brillo</option>
+                        <option>Poca grasa</option>
+                        <option>Solo zona T</option>
+                    </select>
+                </div>
+
+                <div class="pregunta">
+                    <label>¿Cómo se siente tu piel?</label>
+                    <select>
+                        <option disabled selected>Selecciona una opción</option>
+                        <option>Hidratada</option>
+                        <option>Reseca</option>
+                        <option>Mixta</option>
+                    </select>
+                </div>
+
+                <div class="pregunta">
+                    <label> ¿Tu piel presenta poros visibles</label>
+                    <select >
+                        <option disabled selected>Selecciona una opción</option>
+                        <option>Sí, muy visibles</option>
+                        <option>Poco visibles</option>
+                        <option>Casi no se notan</option>
+                    </select>
+                </div>
+
+                <div class="pregunta">
+                    <label>¿Tu piel es sensible a productos?</label>
+                    <select>
+                        <option disabled selected>Selecciona una opción</option>
+                        <option>Sí, se irrita fácilmente</option>
+                        <option>A veces</option>
+                        <option>No</option>
+                    </select>
+                </div>
+
+                <div class="pregunta">
+                    <label>¿Con qué frecuencia aparecen granitos o acné?</label>
+                    <select>
+                        <option disabled selected>Selecciona una opción</option>
+                        <option>Frecuentamente</option>
+                        <option>Ocacionalmente</option>
+                        <option>Muy rara vez</option>
+                        <option>Nunca</option>
+                    </select>
+                </div>
+
+                <div class="pregunta">
+                    <label>¿Tu piel se enrojece con facilidad?</label>
+                    <select>
+                        <option disabled selected>Selecciona una opción</option>
+                        <option>Si</option>
+                        <option>A veces</option>
+                        <option>No</option>
+                    </select>
+                </div>
+
+                <div class="pregunta">
+                    <label>¿Cómo es tu zona T (frente, nariz y mentón)?</label>
+                    <select>
+                        <option disabled selected>Selecciona una opción</option>
+                        <option>Muy grase</option>
+                        <option>Normal</option>
+                        <option>Seca</option>
+                    </select>
+                </div>
+
+                <div class="pregunta">
+                    <label>¿Tu maquillaje tiende a desaparecer o derretirse durante el día?</label>
+                    <select>
+                        <option disabled selected>Selecciona una opción</option>
+                        <option>Sí, muy rapido</option>
+                        <option>Solo en algunas zonas</option>
+                        <option>No, se mantiene bien</option>
+                    </select>
+                </div>
+                <button>Enviar</button>
+            </form> 
+        </section>
+
+
+   
+
+        <!-- CONTACTO -->
+
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <p>Email: beautystore@gmail.com</p>
+            <p>Instagram: @beautystore</p>
+            <p>Teléfono: +57 300 123 4567</p>
+        </section>
+
+        <footer>
+            <p>© 2026 Beauty Store</p>
+            <p>Proyecto Ingeniería de Sistemas</p>
+        </footer>
+        <script>
+            function mostrarSeccion(seccion) {
+            document.getElementById('inicio').style.display = 'none';
+            document.getElementById('productos').style.display = 'none';
+            document.getElementById('piel').style.display = 'none';
+            document.getElementById('contacto').style.display = 'none';
+
+            document.getElementById(seccion).style.display = 'block';
+            }
+        </script>
+
+    </body>
 </html>
 
