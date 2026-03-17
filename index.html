@@ -36,23 +36,41 @@
             <!-- MARCAS -->
             <section class="marcas">
                 <h2>Marcas populares</h2>
-                <div class="marcas">
+                <div class="marca">
                     <p><strong>Trendy</strong></p>
                     <img src="IMG/images (2).jpg">
                     <p>Marca colombiana 🇨🇴</p>
                 </div>
                 
-                <div class="marcas">
+                <div class="marca">
                     <p><strong>Mac</strong></p>
                     <img src="IMG/images (2).png">
-                    <p>Marca internacional 🌎</p>
+                    <p>Marca internacional</p>
                 </div>
                 
-                <div class="marcas">
+                <div class="marca">
                     <P><strong>Bloomshell</strong></P>
                     <img src="IMG/images (3).jpg">
                     <p>Marca colombiana 🇨🇴</p>
                 </div> 
+
+                <div class="marca">
+                    <p><strong>Rare Beauty</strong></p>
+                    <img src="IMG/Shop All _ Rare Beauty by Selena Gomez.jpg" >
+                    <p>Marca internacional</p>
+                </div> 
+
+                <div class="marca">
+                    <p><strong>Athenea Beauty</strong></p>
+                    <img src="IMG/images (3).png">
+                    <p>Marca Colombiana co</p>
+                </div>
+
+                <div class="marca">
+                    <p><strong>E.L.F Cosmetics</strong></p>
+                    <img src="IMG/unnamed.png">
+                    <p>Marca internacional</p>
+                </div>
             </section>
 
             <!-- OPINIONES -->
@@ -61,6 +79,10 @@
                 <p>"Los productos son increíbles y duran todo el día." ⭐⭐⭐⭐⭐</p>
                 <p>"La base hidratante es perfecta para mi piel seca." ⭐⭐⭐⭐</p>
                 <p>"Me encanta la variedad de maquillaje." ⭐⭐⭐⭐⭐</p>
+                <p>"El primer deja la piel súper suave, lo recomiendo mucho." ⭐⭐⭐⭐⭐</p>
+                <p>"El envío fue rápido y los productos llegaron en buen estado." ⭐⭐⭐⭐</p>
+                <p>"Los precios son muy buenos para la calidad que ofrecen." ⭐⭐⭐⭐⭐</p>
+                <p>"El corrector cubre muy bien las ojeras, me encantó." ⭐⭐⭐⭐⭐</p>
             </section>
 
         </section>
@@ -242,10 +264,10 @@
         <!-- TIPO DE PIEL -->
         <section id="piel">
             <h2>Identifica tu tipo de piel</h2>
-            <form>
+            <form action="#" method="get">
                 <div class="pregunta">
                     <label>¿Tu piel produce brillo durante el día?</label>
-                    <select>
+                    <select name="brillo">
                         <option disabled selected>Selecciona una opción</option>
                         <option>Mucho brillo</option>
                         <option>Poca grasa</option>
@@ -255,7 +277,7 @@
 
                 <div class="pregunta">
                     <label>¿Cómo se siente tu piel?</label>
-                    <select>
+                    <select name="sensacion">
                         <option disabled selected>Selecciona una opción</option>
                         <option>Hidratada</option>
                         <option>Reseca</option>
@@ -265,7 +287,7 @@
 
                 <div class="pregunta">
                     <label> ¿Tu piel presenta poros visibles</label>
-                    <select >
+                    <select  name="poros">
                         <option disabled selected>Selecciona una opción</option>
                         <option>Sí, muy visibles</option>
                         <option>Poco visibles</option>
@@ -275,7 +297,7 @@
 
                 <div class="pregunta">
                     <label>¿Tu piel es sensible a productos?</label>
-                    <select>
+                    <select name="sensible">
                         <option disabled selected>Selecciona una opción</option>
                         <option>Sí, se irrita fácilmente</option>
                         <option>A veces</option>
@@ -285,7 +307,7 @@
 
                 <div class="pregunta">
                     <label>¿Con qué frecuencia aparecen granitos o acné?</label>
-                    <select>
+                    <select name="acne">
                         <option disabled selected>Selecciona una opción</option>
                         <option>Frecuentamente</option>
                         <option>Ocacionalmente</option>
@@ -296,7 +318,7 @@
 
                 <div class="pregunta">
                     <label>¿Tu piel se enrojece con facilidad?</label>
-                    <select>
+                    <select name="enrojecimiento">
                         <option disabled selected>Selecciona una opción</option>
                         <option>Si</option>
                         <option>A veces</option>
@@ -306,9 +328,9 @@
 
                 <div class="pregunta">
                     <label>¿Cómo es tu zona T (frente, nariz y mentón)?</label>
-                    <select>
+                    <select name="zonaT">
                         <option disabled selected>Selecciona una opción</option>
-                        <option>Muy grase</option>
+                        <option>Muy grasa</option>
                         <option>Normal</option>
                         <option>Seca</option>
                     </select>
@@ -316,14 +338,65 @@
 
                 <div class="pregunta">
                     <label>¿Tu maquillaje tiende a desaparecer o derretirse durante el día?</label>
-                    <select>
+                    <select name="maquillaje">
                         <option disabled selected>Selecciona una opción</option>
                         <option>Sí, muy rapido</option>
                         <option>Solo en algunas zonas</option>
                         <option>No, se mantiene bien</option>
                     </select>
                 </div>
-                <button>Enviar</button>
+
+                <div class="pregunta">
+                    <label>¿Sientes tu piel tirante después de lavarla?</label>
+                    <select name="tirante">
+                        <option disabled selected>Selecciona una opción</option>
+                        <option>Sí, mucho </option>
+                        <option>Un poco</option>
+                        <option>No</option>
+                    </select>
+                </div>
+
+                <div class="pregunta">
+                    <label>¿Tu piel absorbe rápido las cremas?</label>
+                    <select name="absorcion">
+                        <option disabled selected>Selecciona una opción</option>
+                        <option>Sí, muy rápido</option>
+                        <option>Normal</option>
+                        <option>No, tarda</option>
+                    </select>
+                </div>
+
+                <div class="pregunta">
+                    <label>¿Tienes puntos negros?</label>
+                    <select name="puntosnegros">
+                        <option disabled selected>Selecciona una opción</option>
+                        <option>Muchos</option>
+                        <option>Pocos</option>
+                        <option>No tengo</option>
+                    </select>
+                </div>
+
+                <div class="pregunta">
+                    <label>¿Tu piel cambia según el clima?</label>
+                    <select name="cambioClima">
+                        <option disabled selected>Selecciona una opción</option>
+                        <option>Sí, mucho</option>
+                        <option>Un poco</option>
+                        <option>No cambia</option>
+                    </select>
+                </div>
+
+                <div class="pregunta">
+                    <label>¿Cómo reacciona tu piel al maquillaje?</label>
+                    <select name="reaccionMaquillaje">
+                        <option disabled selected>Selecciona una opción</option>
+                        <option>Se ve grasosa</option>
+                        <option>Se reseca</option>
+                        <option>Se mantiene equilibrado</option>
+                    </select>
+                </div>
+
+                <button type="submit">Enviar</button>
             </form> 
         </section>
 
