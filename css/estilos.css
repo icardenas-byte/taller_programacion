@@ -4,7 +4,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+    margin: 0;
 }
 
 
@@ -12,7 +12,7 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 50px;
-    color:  #6A0DAD;
+    color:  #B57EDC;
 }
 
 nav{
@@ -62,31 +62,56 @@ nav a{
 
 
 .hero h2{
-    color: #E91E63;
+    color: #5DADE2;
 }
 
 .hero p{
-    color: #444444;
+    color: black;
     font-size: medium;
 }
 
 #productos h2{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: #E91E63;
+    color: #5DADE2;
     font-size: 28px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+}
+
+.producto{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.producto img{
+    width: 200px;
+    height: auto;
+    border-radius: 30px;
+    transition: trasform 0.3s ease;
+}
+
+.producto:hover{
+    transform: scale(1.2);
 }
 
 .producto h3{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: #E91E63;
+    color: #5DADE2;
     font-size: 28px;
 }
 .producto p{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: #444444;
+    color: black;
     font-size: medium;
 }
 
@@ -96,7 +121,7 @@ nav a{
 
 .marcas h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #E91E63;
+    color: #5DADE2;
 }
 
 .marca p{
@@ -119,7 +144,7 @@ nav a{
     width: 100px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 10´x rgb(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
@@ -130,7 +155,7 @@ nav a{
 .opiniones h2{
     font-family: Arial, Helvetica, sans-serif;
     text-align: start;
-    color: coral;
+    color: #E85D9E;
 }
 
 .opiniones p{
@@ -141,7 +166,7 @@ nav a{
 
 #skincare h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:#E91E63;
+    color:#5DADE2;
     text-align: center;
 }
 
@@ -152,15 +177,22 @@ nav a{
     display: block;
 }
 
+#skincare h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #E85D9E;
+    font-size: 30px;
+}
+
  h3{
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:#E91E63;
-    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#5DADE2;
+    text-align:start;
 }
 
 p{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    text-align: start;
 }
 
 .skincare-item{
@@ -181,35 +213,44 @@ p{
     transform: scale(1.2);
 }
 
+
 #piel h2{
     font-family: Arial, Helvetica, sans-serif;
     text-align: start;
-    color: coral;
+    color: #E85D9E;
 }
 
 form{
     font-family: Arial, Helvetica, sans-serif;
-    color: #444444;
+    color: black;
     text-align: justify;
 }
 
 #contacto h2{
     font-family: Arial, Helvetica, sans-serif;
     text-align: start;
-    color: coral;
+    color: black;
+    font-weight: bold;
+    background-color:#E3F2FD;
+    padding: 10px;
+    margin: 0;
     
 }
 
 #contacto p{
     font-family: Arial, Helvetica, sans-serif;
-    color: #444444;
+    color: black;
     text-align: justify;
+    background-color:#E3F2FD;
+    padding: 10px;
+    margin: 0;
 }
 
 
 footer{
     font-family: Arial, Helvetica, sans-serif;
-    background-color:#767575;
-    color: white;
+    background-color:#E3F2FD;
+    color:black;
     text-align: start;
+    padding: 10px 10px;
 }
